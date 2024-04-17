@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #fff7e7; /* Fondo café claro tipo pastel */
+        }
+        img {
+            max-width: 250px;
+            vertical-align: middle;
+            margin-right: 10px;
+            border: 2px solid #cca89b; /* Bordes de los cuadros */
+            padding: 10px;
+            background-color: #ffffff; /* Relleno blanco del cuadro */
+        }
+        nav {
+            text-align: left;
+        }
+        nav a {
+            text-decoration: none;
+            color: #000000;
+            margin-right: 20px;
+        }
+        .nav-links {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        .animal-box {
+            margin: 10px;
+            cursor: pointer;
+        }
+        .animal-box:nth-child(1),
+        .animal-box:nth-child(2) {
+            order: -1; /* Cambia el orden de los dos primeros cuadros */
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-links">
+        <a href="pagina_principal.html">Inicio</a>
+    </div>
+    <header>
+        <h1> Adopción de Perros </h1>
+        <p> Estos son los perritos que están en busca de un hogar donde se les entregue mucho amor y los cuiden bien. </p>
+    </header>
+    <h2> Nuestros perros que buscan familia:</h2>
+    <nav>
+        <ul>
+            <li class="animal-box">
+                <a href="Cachula.html">
+                    <img src="./assets/img/perro1.jpg" alt="imagen perro 1">
+                    Cachula
+                </a>
+            </li>
+            <li class="animal-box">
+                <a href="Niña.html">
+                    <img src="./assets/img/perro2.jpg" alt="imagen perro 2">
+                    Niña
+                </a>
+            </li>
+            <li class="animal-box">
+                <a href="Flaca.html">
+                    <img src="./assets/img/perro3.jpg" alt="imagen perro 3">
+                    Flaca
+                </a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,49 @@
+
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Estilo para las imágenes */
+img {
+    max-width: 250px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* Estilo para la barra de navegación */
+.navbar {
+    background-color: #f5e6cc; /* Color de fondo café claro */
+}
+
+.navbar-brand {
+    color: #23a3ad; /* Color del texto del logo */
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #23a3ad; /* Color del texto de las opciones */
+    margin-right: 20px;
+}
+
+/* Estilo para el contenido del equipo */
+#equipo {
+    margin-top: 20px;
+}
+
+/* Estilo para los nombres del equipo */
+#equipo ul li {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+/* Estilo para los enlaces de Adopta y Gatos */
+.navbar-nav .nav-link.text-info:hover {
+    color: #007bff; /* Color del texto al pasar el mouse */
+}
